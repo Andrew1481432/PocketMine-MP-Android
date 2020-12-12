@@ -4,12 +4,11 @@ import android.app.NotificationManager
 import android.app.NotificationChannel
 import android.os.Build
 import android.app.Application
-import android.support.annotation.RequiresApi
+import androidx.annotation.RequiresApi
 
 const val CHANNEL_ID = "pocketmine_service_channel"
 
 class App : Application() {
-
     override fun onCreate() {
         super.onCreate()
 

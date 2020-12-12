@@ -5,15 +5,10 @@
         android:id="@+id/download"
         android:icon="@drawable/ic_file_download_black"
         android:title="@string/download_phar"
-        app:showAsAction="always" />
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/kill"
         android:icon="@drawable/ic_stop_black"
         android:title="@string/kill"
-        app:showAsAction="ifRoom" />
-    <item
-        android:id="@+id/console"
-        android:icon="@drawable/ic_console_black"
-        android:title="@string/console"
         app:showAsAction="ifRoom" />
 </menu>
